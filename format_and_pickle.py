@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
+# =============================================================================
+# The script recodes the Dail.csv file to utf-8, makes an exception for ceann 
+# comhairle data, determines elimination rounds for candidates, and pickles the
+# data for quick use in analysis.
+# =============================================================================
 
 # In[52]:
 import pandas as pd
